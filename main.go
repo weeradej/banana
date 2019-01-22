@@ -3,5 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World.") //Pring message to console.
+	for i := 0; i < 10; i++ {
+		fmt.Println("Hello World.", i) //Pring message to console.
+	}
+
 }
